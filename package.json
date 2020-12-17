@@ -1,8 +1,12 @@
 {
   "name": "superpermute",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Incrementally generate digits of superpermutations.",
   "main": "bin/index.js",
+  "files": [
+    "bin/index.js",
+    "bin/index.d.ts"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register test/**/*-test.ts",
